@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/DataSelect5.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/DataSelect32.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/PC.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/PC4.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/IR.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/ALU.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/ControlUnit.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/DataSelect32_plus.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/SignOrZeroExtend.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/PCImmediate.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/Register.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/RAM.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/ROM.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sources_1/imports/new/main.v"
+verilog xil_defaultlib  "../../../MultipleCycleCPU.srcs/sim_1/new/test.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
