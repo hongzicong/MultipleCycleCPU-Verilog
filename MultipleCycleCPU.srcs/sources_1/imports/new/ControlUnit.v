@@ -56,7 +56,7 @@ module ControlUnit(
     
     assign ALUOp[2] = (OpCode == `opAnd || OpCode == `opOr || OpCode == `opOri || OpCode == `opSll);
     assign ALUOp[1] = (OpCode == `opAnd || OpCode == `opSlt || OpCode == `opSltiu);
-    assign ALUOp[0] = (OpCode == `opSub || OpCode == `opSlt || OpCode == `opOr || OpCode == `opOri);
+    assign ALUOp[0] = (OpCode == `opSub || OpCode == `opSlt || OpCode == `opOr || OpCode == `opOri || OpCode == `opBeq);
     
     assign RegDst[1] = (OpCode == `opAdd || OpCode == `opSub || OpCode == `opOr || OpCode == `opAnd || OpCode == `opSll || OpCode == `opSlt);
     assign RegDst[0] = (OpCode == `opAddi || OpCode == `opOri || OpCode == `opSltiu || OpCode == `opLw);
